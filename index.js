@@ -1,6 +1,8 @@
 window.onload = function() {
-    window.alert("1.Press the button Move then take cursor inside canvas box to move the image."+"\n"+
-                "2.Press the button Resize then take cursor inside canvas box to resize the image");
+    window.alert("1.Press the button Move Image then take cursor inside canvas box to move the image."+"\n"+
+                "2.Press the button Resize Image then take cursor inside canvas box to resize the image"+"\n"+
+                "3.Press the button Move Text then take the cursor inside canvas box to move the text"+"\n"+
+                "4.Press the button Resize Image then take the cursor inside canvas box to Resize the text");
     var canvas = document.getElementById("myCanvas");
 
     canvas.width = window.innerWidth;
